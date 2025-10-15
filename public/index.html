@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JF Elevate</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <meta name="description" content="JF Elevate - Personal Coaching by Javier Sanchez" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-dvh bg-brand-dark text-white antialiased">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-brand-dark/80 backdrop-blur-sm">
+    <div class="container mx-auto max-w-7xl px-4 py-4 flex items-center justify-between">
+      <a href="#" class="font-bold tracking-tight text-2xl">
+        <img src="https://i.imgur.com/f2T4i6E.png" alt="JF Elevate Logo" class="h-8">
+      </a>
+
+      <!-- Mobile menu button -->
+      <button id="menuBtn" class="md:hidden p-2 rounded hover:bg-brand-gray" aria-expanded="false" aria-controls="nav">
+        <span class="sr-only">Open menu</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+      </button>
+
+      <!-- Nav -->
+      <nav id="nav" class="hidden md:flex items-center space-x-8">
+        <ul class="flex items-center space-x-8">
+          <li><a class="hover:text-brand-green" href="#">Home</a></li>
+          <li><a class="hover:text-brand-green" href="#about">About</a></li>
+          <li><a class="hover:text-brand-green" href="#testimonials">Testimonials</a></li>
+          <li><a class="hover:text-brand-green" href="#services">Services</a></li>
+          <li><a class="hover:text-brand-green" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="bg-brand-green text-brand-dark font-semibold px-5 py-2 rounded-md hover:opacity-90">
+          Start Your Transformation
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="relative text-center py-24 md:py-40 px-4 bg-cover bg-center" style="background-image: url('https://i.imgur.com/sCEgE5s.jpeg');">
+      <div class="absolute inset-0 bg-black/60"></div>
+      <div class="relative container mx-auto max-w-4xl">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+          We <span class="text-brand-green">Elevate</span> Greatness
+        </h1>
+        <p class="mt-4 text-lg text-gray-300">
+          Join a community that lifts you up. At JF Elevate, we're dedicated to your transformation, providing expert coaching in a space where you belong.
+        </p>
+        <a href="#contact" class="mt-8 inline-block rounded-lg bg-brand-blue px-8 py-3 text-white font-semibold hover:opacity-90">
+          Start Your Transformation
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4">
+        <div class="container mx-auto max-w-7xl grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-gray-300">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Guided by Experience, Focused on <span class="text-brand-green">Your Transformation</span></h2>
+                <p class="mt-6">I once thought working harder was the answer – training twice a day, cutting calories, and pushing past exhaustion. But I learned the hard way: without strategy, effort isn't enough.</p>
+                <p class="mt-4">That realization built JF Elevate – a coaching approach grounded in structure, science, and balance. I help clients build lean muscle, burn fat, and strengthen their mindset without burnout.</p>
+                <p class="mt-4">Every plan starts with a personalized assessment to identify your goals, nutrition needs, and recovery strategy. With expert guidance and accountability, you'll make real progress – the smart way.</p>
+                <p class="mt-6 font-semibold">Start your journey today and train with purpose.</p>
+                <p class="mt-4 text-brand-green">- Coach Javier Sanchez<br>@Javier_Sanchez_Fit</p>
+            </div>
+            <div>
+                <img src="https://i.imgur.com/9n1nL4j.jpeg" alt="Javier Sanchez" class="rounded-lg shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="bg-brand-gray py-20 px-4">
+        <div class="container mx-auto max-w-7xl">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-center">Client Success <span class="text-brand-green">Stories</span></h2>
+            <div class="mt-12 grid md:grid-cols-1 gap-16 max-w-5xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-brand-dark p-8 rounded-lg text-left">
+                        <p class="text-lg font-semibold text-brand-green">TRANSFORMATIVE & FUN</p>
+                        <p class="mt-4 text-gray-400">"I've experienced an incredible transformation in my fitness journey with JF Elevated. The sessions are not only effective but also enjoyable. Highly recommended!"</p>
+                        <p class="mt-6 font-bold">- Sarah</p>
+                    </div>
+                    <img src="https://i.imgur.com/n4n8k1s.jpeg" alt="Client Sarah" class="rounded-lg">
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <img src="https://i.imgur.com/sK22w8q.jpeg" alt="Client Mike" class="rounded-lg">
+                    <div class="bg-brand-dark p-8 rounded-lg text-left">
+                        <p class="text-lg font-semibold text-brand-green">A SUPPORTIVE COMMUNITY</p>
+                        <p class="mt-4 text-gray-400">"JF Elevated has become my second home. The supportive community and expert guidance have made a significant difference in my fitness routine."</p>
+                        <p class="mt-6 font-bold">- Mike</p>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-brand-dark p-8 rounded-lg text-left">
+                        <p class="text-lg font-semibold text-brand-green">THE ULTIMATE FITNESS SOLUTION</p>
+                        <p class="mt-4 text-gray-400">"JF Elevated offers the ultimate fitness solution. I've achieved results beyond my expectations and couldn't be happier with my progress."</p>
+                        <p class="mt-6 font-bold">- Emily</p>
+                    </div>
+                    <img src="https://i.imgur.com/n4n8k1s.jpeg" alt="Client Emily" class="rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 px-4">
+        <div class="container mx-auto max-w-7xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Our Coaching Services</h2>
+            <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Find the perfect plan to elevate your fitness. We offer personalized coaching designed for your unique journey, with clear, upfront pricing.</p>
+            <div class="mt-12 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Service 1 -->
+                <div class="bg-brand-gray p-8 rounded-lg border border-gray-700">
+                    <h3 class="text-2xl font-bold">Nutrition</h3>
+                    <p class="text-gray-400 mt-2">Foundational Strength Building</p>
+                    <p class="text-5xl font-extrabold mt-6">$80<span class="text-lg font-medium text-gray-400">/month</span></p>
+                    <ul class="mt-6 space-y-3 text-left">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-brand-green mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Bi-Weekly Check-ins</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-brand-green mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Nutritional Guidance</li>
+                    </ul>
+                    <a href="#contact" class="mt-8 inline-block w-full rounded-lg bg-brand-blue py-3 text-white font-semibold hover:opacity-90">Enroll Now</a>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-brand-blue p-8 rounded-lg text-white">
+                    <h3 class="text-2xl font-bold">1:1 Coaching</h3>
+                    <p class="opacity-80 mt-2">Comprehensive Fitness & Lifestyle</p>
+                    <p class="text-5xl font-extrabold mt-6">$50<span class="text-lg font-medium opacity-80">/Session</span></p>
+                    <ul class="mt-6 space-y-3 text-left">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Everything in Momentum</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Weekly 1-on-1 Virtual Sessions</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>24/7 Priority Support</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Mindset Coaching</li>
+                    </ul>
+                    <a href="#contact" class="mt-8 inline-block w-full rounded-lg bg-white py-3 text-brand-blue font-semibold hover:bg-gray-200">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Details -->
+    <section id="contact-details" class="py-20 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="bg-brand-gray p-8 rounded-lg grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold tracking-tight">Contact</h2>
+                    <div class="mt-6 space-y-4">
+                        <div>
+                            <p class="font-semibold text-brand-green">EMAIL</p>
+                            <a href="mailto:javier.sanchezbello@yahoo.com" class="hover:underline">javier.sanchezbello@yahoo.com</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-brand-green">Social</p>
+                            <a href="#" class="hover:underline">Instagram</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-brand-green">HOURS</p>
+                            <p>Mon - Fri: 4:00am - 8:00pm</p>
+                            <p>Sat - Sun: 8:00am - 4:00pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/tX3F4iC.jpeg" alt="Gym interior" class="rounded-lg shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="bg-brand-gray py-20 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Book a Consultation</h2>
+                <p class="mt-4 text-gray-400">Ready to take the next step in your fitness journey? Fill out the form below to schedule a consultation with Javier Sanchez.</p>
+            </div>
+            <form class="mt-12 bg-brand-dark p-8 rounded-lg shadow-2xl">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <input type="text" placeholder="Your Name" class="bg-brand-gray border-gray-600 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-brand-blue">
+                    <input type="email" placeholder="Your Email" class="bg-brand-gray border-gray-600 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-brand-blue">
+                    <input type="tel" placeholder="Phone Number" class="bg-brand-gray border-gray-600 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-brand-blue">
+                    <select class="bg-brand-gray border-gray-600 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-brand-blue">
+                        <option>Preferred Time</option>
+                        <option>Morning</option>
+                        <option>Afternoon</option>
+                        <option>Evening</option>
+                    </select>
+                </div>
+                <textarea placeholder="Tell us about your fitness goals" rows="5" class="bg-brand-gray border-gray-600 rounded-md p-3 w-full mt-6 focus:outline-none focus:ring-2 focus:ring-brand-blue"></textarea>
+                <button type="submit" class="mt-6 w-full rounded-lg bg-brand-blue py-3 text-white font-semibold hover:opacity-90">Submit</button>
+            </form>
+        </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 bg-brand-dark pt-16 pb-8 px-4">
+    <div class="container mx-auto max-w-7xl">
+      <div class="grid md:grid-cols-3 gap-8 text-gray-400">
+        <!-- Left Column -->
+        <div>
+          <h3 class="font-bold text-white text-xl">JF Elevate</h3>
+          <p class="mt-2">Personal Coaching by Javier Sanchez</p>
+          <div class="mt-4">
+            <a href="#" class="inline-block hover:text-white">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.22 15.295c-.583.444-1.33.22-1.66-.423l-1.42-2.73c-.33-.643.03-1.412.67-1.66l5.45-2.18c.64-.256 1.24.344.984.984l-2.18 5.45c-.248.643-1.017 1.002-1.66.67l-2.73-1.42z" clip-rule="evenodd" /></svg>
+            </a>
+          </div>
+        </div>
+        <!-- Middle Column -->
+        <div>
+          <h3 class="font-semibold text-white">Visit Us</h3>
+          <ul class="mt-2 space-y-1">
+            <li>123 Fitness Ave, Trainhard City</li>
+            <li>Mon - Fri: 6am - 10pm</li>
+            <li>Sat - Sun: 8am - 8pm</li>
+          </ul>
+        </div>
+        <!-- Right Column -->
+        <div class="md:text-right">
+          <nav>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Home</a></li>
+              <li><a href="#about" class="hover:text-white">About</a></li>
+              <li><a href="#testimonials" class="hover:text-white">Testimonials</a></li>
+              <li><a href="#services" class="hover:text-white">Services</a></li>
+              <li><a href="#contact" class="hover:text-white">Contact</a></li>
+            </ul>
+          </nav>
+          <a href="#contact" class="mt-4 inline-block rounded-lg bg-brand-blue px-5 py-3 text-white font-semibold hover:opacity-90">
+            Start Your Transformation
+          </a>
+        </div>
+      </div>
+      <div class="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
+        <p>© <span id="year"></span> JF Elevate. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./main.js" defer></script>
+</body>
+</html>
