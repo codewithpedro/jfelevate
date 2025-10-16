@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JF Elevate</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./src/output.css" />
+
   <meta name="description" content="JF Elevate - Personal Coaching by Javier Sanchez" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,10 +68,10 @@
                 <p class="mt-4">That realization built JF Elevate – a coaching approach grounded in structure, science, and balance. I help clients build lean muscle, burn fat, and strengthen their mindset without burnout.</p>
                 <p class="mt-4">Every plan starts with a personalized assessment to identify your goals, nutrition needs, and recovery strategy. With expert guidance and accountability, you'll make real progress – the smart way.</p>
                 <p class="mt-6 font-semibold">Start your journey today and train with purpose.</p>
-                <p class="mt-4 text-brand-green">- Coach Javier Sanchez<br>@Javier_Sanchez_Fit</p>
+                <p class="mt-4 text-brand-green">- Coach Javier Sanchez<br><a href="https://www.instagram.com/javier_sanchez_fit/">@Javier_Sanchez_Fit</a></p>
             </div>
             <div>
-                <img src="public/transformation-min.png" alt="Javier Sanchez" class="rounded-lg shadow-2xl">
+                <img src="public/transformation-min.png" alt="Javier Sanchez" id="about-img" class="rounded-lg shadow-2xl object-cover">
             </div>
         </div>
     </section>
@@ -82,30 +83,30 @@
             <div class="mt-12 grid md:grid-cols-1 gap-16 max-w-5xl mx-auto">
                 <!-- Testimonial 1 -->
                 <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <div class="bg-brand-dark p-8 rounded-lg text-left">
+                    <div class="p-8 rounded-lg text-left">
                         <p class="text-lg font-semibold text-brand-green">TRANSFORMATIVE & FUN</p>
-                        <p class="mt-4 text-gray-400">"I've experienced an incredible transformation in my fitness journey with JF Elevated. The sessions are not only effective but also enjoyable. Highly recommended!"</p>
+                        <p class="mt-4">"I've experienced an incredible transformation in my fitness journey with JF Elevated. The sessions are not only effective but also enjoyable. Highly recommended!"</p>
                         <p class="mt-6 font-bold">- Sarah</p>
                     </div>
-                    <img src="public/Sarah-min.jpg" alt="Client Sarah" class="rounded-lg">
+                    <img src="public/Sarah-min.jpg" alt="Client Sarah" class="rounded-lg object-cover testimonials-img">
                 </div>
                 <!-- Testimonial 2 -->
                 <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <img src="public/mike-min.jpg" alt="Client Mike" class="rounded-lg">
-                    <div class="bg-brand-dark p-8 rounded-lg text-left">
+                    <img src="public/mike-min.jpg" alt="Client Mike" class="rounded-lg object-cover testimonials-img">
+                    <div class="p-8 rounded-lg text-left">
                         <p class="text-lg font-semibold text-brand-green">A SUPPORTIVE COMMUNITY</p>
-                        <p class="mt-4 text-gray-400">"JF Elevated has become my second home. The supportive community and expert guidance have made a significant difference in my fitness routine."</p>
+                        <p class="mt-4">"JF Elevated has become my second home. The supportive community and expert guidance have made a significant difference in my fitness routine."</p>
                         <p class="mt-6 font-bold">- Mike</p>
                     </div>
                 </div>
                 <!-- Testimonial 3 -->
                 <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <div class="bg-brand-dark p-8 rounded-lg text-left">
+                    <div class="p-8 rounded-lg text-left">
                         <p class="text-lg font-semibold text-brand-green">THE ULTIMATE FITNESS SOLUTION</p>
-                        <p class="mt-4 text-gray-400">"JF Elevated offers the ultimate fitness solution. I've achieved results beyond my expectations and couldn't be happier with my progress."</p>
+                        <p class="mt-4">"JF Elevated offers the ultimate fitness solution. I've achieved results beyond my expectations and couldn't be happier with my progress."</p>
                         <p class="mt-6 font-bold">- Emily</p>
                     </div>
-                    <img src="public/Emily-min.jpg" alt="Client Emily" class="rounded-lg">
+                    <img src="public/Emily-min.jpg" alt="Client Emily" class="rounded-lg object-cover testimonials-img">
                 </div>
             </div>
         </div>
@@ -118,18 +119,7 @@
             <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Find the perfect plan to elevate your fitness. We offer personalized coaching designed for your unique journey, with clear, upfront pricing.</p>
             <div class="mt-12 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 <!-- Service 1 -->
-                <div class="bg-brand-gray p-8 rounded-lg border border-gray-700">
-                    <h3 class="text-2xl font-bold">Nutrition</h3>
-                    <p class="text-gray-400 mt-2">Foundational Strength Building</p>
-                    <p class="text-5xl font-extrabold mt-6">$80<span class="text-lg font-medium text-gray-400">/month</span></p>
-                    <ul class="mt-6 space-y-3 text-left">
-                        <li class="flex items-center"><svg class="w-5 h-5 text-brand-green mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Bi-Weekly Check-ins</li>
-                        <li class="flex items-center"><svg class="w-5 h-5 text-brand-green mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Nutritional Guidance</li>
-                    </ul>
-                    <a href="#contact" class="mt-8 inline-block w-full rounded-lg bg-brand-blue py-3 text-white font-semibold hover:opacity-90">Enroll Now</a>
-                </div>
-                <!-- Service 2 -->
-                <div class="bg-brand-blue p-8 rounded-lg text-white">
+                 <div class="bg-brand-blue p-8 rounded-lg text-white">
                     <h3 class="text-2xl font-bold">1:1 Coaching</h3>
                     <p class="opacity-80 mt-2">Comprehensive Fitness & Lifestyle</p>
                     <p class="text-5xl font-extrabold mt-6">$50<span class="text-lg font-medium opacity-80">/Session</span></p>
@@ -141,12 +131,24 @@
                     </ul>
                     <a href="#contact" class="mt-8 inline-block w-full rounded-lg bg-white py-3 text-brand-blue font-semibold hover:bg-gray-200">Enroll Now</a>
                 </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-brand-gray p-8 rounded-lg border border-gray-700">
+                    <h3 class="text-2xl font-bold">Nutrition</h3>
+                    <p class="text-gray-400 mt-2">Foundational Strength Building</p>
+                    <p class="text-5xl font-extrabold mt-6">$80<span class="text-lg font-medium text-gray-400">/month</span></p>
+                    <ul class="mt-6 space-y-3 text-left">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-brand-green mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Bi-Weekly Check-ins</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-brand-green mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Nutritional Guidance</li>
+                    </ul>
+                    <a href="#contact" class="mt-8 inline-block w-full rounded-lg bg-brand-blue py-3 text-white font-semibold hover:opacity-90">Enroll Now</a>
+                </div> 
             </div>
         </div>
     </section>
 
     <!-- Contact Details -->
-    <section id="contact-details" class="py-20 px-4">
+    <section id="contact" class="py-20 px-4">
         <div class="container mx-auto max-w-4xl">
             <div class="bg-brand-gray p-8 rounded-lg grid md:grid-cols-2 gap-12 items-center">
                 <div>
@@ -158,7 +160,7 @@
                         </div>
                         <div>
                             <p class="font-semibold text-brand-green">Social</p>
-                            <a href="#" class="hover:underline">Instagram</a>
+                            <a href="https://www.instagram.com/javier_sanchez_fit/" class="hover:underline">Instagram</a>
                         </div>
                         <div>
                             <p class="font-semibold text-brand-green">HOURS</p>
@@ -168,14 +170,14 @@
                     </div>
                 </div>
                 <div>
-                    <img src="public/contact.jpg" alt="Gym interior" class="rounded-lg shadow-2xl">
+                    <img src="public/contact.jpg" alt="Gym interior" id="contact-img" class="rounded-lg shadow-2xl object-cover">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Form -->
-    <section id="contact" class="bg-brand-gray py-20 px-4">
+    <section id="" class="bg-brand-gray py-20 px-4 hide-div">
         <div class="container mx-auto max-w-4xl">
             <div class="text-center">
                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Book a Consultation</h2>

@@ -2,8 +2,33 @@
 
 @theme {
   --color-brand-dark: #101727;
-  --color-brand-gray: #374151;
-  --color-brand-green: #34D399;
+  --color-brand-gray: #656565;
+  --color-brand-green: #39FF14;
   --color-brand-blue: #007BFF;
   --font-sans: "Inter", sans-serif;
+}
+
+#about-img {
+    max-height: 450px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 25%;
+}
+
+.testimonials-img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 25%;
+}
+
+#contact-img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hide-div {
+  display:none;
 }
